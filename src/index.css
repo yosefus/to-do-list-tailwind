@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=checkbox],
+input[type=date],
+select,
+button,
+label,
+a {
+  cursor: pointer;
+}
+
+.main {
+  /* background-image: url('/back.jpg'); */
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/back.jpg') fixed center;
+
+}
